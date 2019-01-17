@@ -16,10 +16,19 @@ for(var i = 0; i < x; i++) {
     }
 }
 
+// eslint-disable-next-line
 function sayHello() {
     console.log('Well, hello there marty')
     console.log('It sure seems like lots of rabbits are after you...')
 }
-if(x % 2 === 0) {
-    sayHello();
+
+// eslint-disable-next-line
+function evenOrOdd() {
+    var input = document.getElementById('number');    
+    if(input.value % 2 === 0) {
+        console.log('even');
+    } else {
+        console.log('odd');
+    }
+
 }
